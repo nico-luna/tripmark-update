@@ -584,11 +584,11 @@ body:not(.loaded) .leaf-right-decor { background: url(../img/bg/leaf-right.svg) 
 
 .services__text { margin-top: .9rem; font-size: 1.6rem; line-height: 170%; position: relative; z-index: 1; color: #646A89; }
 
-.first-screen { padding-top: 16rem; }
+.first-screen { padding-top: 10rem; }
 
 .section-screen-main { background: url(../img/main-bg.svg) 50% 0 no-repeat; -webkit-background-size: auto 100%; background-size: auto 100%; position: relative; }
 
-.section-screen-main__bg { position: absolute; z-index: 0; left: 0; top: 0; right: 0; bottom: -14%; -webkit-background-size: cover; background-size: cover; background-position: 50% 0; }
+.section-screen-main__bg { position: absolute; z-index: 0; left: 0; top: 0; right: 0; bottom: 0; -webkit-background-size: cover; background-size: cover; background-position: 50% 0; }
 
 .screen-main { padding: 4.8rem 0 15.5rem; width: 45%; min-height: 74rem; }
 
