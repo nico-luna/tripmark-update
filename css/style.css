@@ -733,7 +733,7 @@ body:not(.loaded) .popup-decor-top { background: url(../img/bg/popup_decor-top.s
 .bg-logo {
   position: absolute;
   right: 23%;
-  top: -18%;
+  top: -21%;
   z-index: -1;
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -820,3 +820,26 @@ body:not(.loaded) .popup-decor-top { background: url(../img/bg/popup_decor-top.s
 .whatsapp:hover{
   background-color:#25d366;
 }
+.steps__item{
+  transition: .3s;
+}
+.steps__item:hover {
+  transform: scale(1.2);
+}
+
+.get-list__item {
+  transition: .6s;
+}
+.get-list__item:hover {
+  transform: scale(1.3)
+}
+
+.pulsate-bck{-webkit-animation:pulsate-bck .5s ease-in-out 7s 3;animation:pulsate-bck .5s ease-in-out 7s 3}
+
+ @-webkit-keyframes pulsate-bck{0%{-webkit-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(.9);transform:scale(.9)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+ @keyframes pulsate-bck{0%{-webkit-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(.9);transform:scale(.9)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+
+ .kenburns-bottom-left{-webkit-animation:kenburns-bottom-left 3s ease-out 1s both;animation:kenburns-bottom-left 3s ease-out 1s both}
+
+@-webkit-keyframes kenburns-bottom-left{0%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0);-webkit-transform-origin:16% 84%;transform-origin:16% 84%}100%{-webkit-transform:scale(1.25) translate(-20px,15px);transform:scale(1.25) translate(-20px,15px);-webkit-transform-origin:left bottom;transform-origin:left bottom}}
+@keyframes kenburns-bottom-left{0%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0);-webkit-transform-origin:16% 84%;transform-origin:16% 84%}100%{-webkit-transform:scale(1.25) translate(-20px,15px);transform:scale(1.25) translate(-20px,15px);-webkit-transform-origin:left bottom;transform-origin:left bottom}}
