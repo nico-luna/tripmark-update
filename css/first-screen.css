@@ -689,8 +689,7 @@ body:not(.loaded) .leaf-right-decor { background: url(../img/bg/leaf-right.svg) 
   .section-screen-main__bg { background-image: url(../img/main-bg.svg) 5% 0 no-repeat !important; top: 40%; background-position: 34% 0; }
   /* .section-screen-main { background-position: 34% 0; } */
   .news__title { font-size: 1.7rem; }
-  /* .section-main-screen, .section-screen-main { background: -webkit-linear-gradient(167.61deg, #DBDFF3 0%, rgba(241, 249, 255, 0) 100%) !important; background: -o-linear-gradient(167.61deg, #DBDFF3 0%, rgba(241, 249, 255, 0) 100%) !important; background: linear-gradient(282.39deg, #DBDFF3 0%, rgba(241, 249, 255, 0) 100%) !important; } } */
-
+  /* .section-main-screen, .section-screen-main { background: -webkit-linear-gradient(167.61deg, #DBDFF3 0%, rgba(241, 249, 255, 0) 100%) !important; background: -o-linear-gradient(167.61deg, #DBDFF3 0%, rgba(241, 249, 255, 0) 100%) !important; background: linear-gradient(282.39deg, #DBDFF3 0%, rgba(241, 249, 255, 0) 100%) !important; } } */}
 @media screen and (max-width: 559px) { .pages_item { margin: 0 auto 2rem; width: 100%; max-width: 54rem; }
   .news__item { width: 100%; margin: 0 0 3rem; } }
 
