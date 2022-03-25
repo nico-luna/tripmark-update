@@ -116,11 +116,11 @@
 
 .news-header_article .news__author img { margin: 0 1rem 0 0; }
 
-blockquote { margin: 4.8rem 0 3.2rem; padding: 7.1rem 5rem 5.3rem; background: #fff; -webkit-box-shadow: 0px 1rem 2.6rem rgba(36, 73, 168, 0.15); box-shadow: 0px 1rem 2.6rem rgba(36, 73, 168, 0.15); -webkit-border-radius: 1rem; border-radius: 1rem; font-size: 2.2rem; line-height: 150%; position: relative; }
+blockquote { margin: 4rem 0 3.2rem; padding: 7.1rem 5rem 5.3rem; background: #fff; -webkit-box-shadow: 0px 1rem 2.6rem rgba(36, 73, 168, 0.15); box-shadow: 0px 1rem 2.6rem rgba(36, 73, 168, 0.15); -webkit-border-radius: 1rem; border-radius: 1rem; font-size: 2.7rem; line-height: 150%; position: relative; }
 
 blockquote cite { margin-top: 2.1rem; font-weight: bold; font-size: 14px; line-height: 150%; display: block; color: #1B2B7C; font-style: normal; letter-spacing: 0.05em; text-transform: uppercase; }
 
-blockquote:before { font-family: icomoon; font-size: 3.5rem; margin-bottom: 0.3rem; line-height: 1; display: inline-block; position: absolute; left: 5rem; top: -1rem; text-transform: uppercase; }
+blockquote:before { font-family: icomoon; font-size: 3.5rem; margin-bottom: 0.5rem; line-height: 1; display: block; position: relative; text-transform: uppercase; }
 
 body:not(.loaded) blockquote { background-image: url(../img/bg/quote.svg); background-position: 100% 100%; -webkit-background-size: auto 100%; background-size: auto 100%; background-repeat: no-repeat; }
 
