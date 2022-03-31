@@ -210,7 +210,7 @@
 
 .tags-article__title { margin: .4rem 1.8rem 0 0; font-weight: bold; font-size: 16px; line-height: 150%; text-transform: uppercase; }
 
-.article { padding-bottom: 28px; border-bottom: 1px solid #DBDFF3;  }
+.article {  padding-bottom: 28px; border-bottom: 1px solid #DBDFF3;  }
 
 .article-author { margin-top: 50px; padding: 5rem; background: -webkit-linear-gradient(163.02deg, #F1F9FF 0.84%, #DBDFF3 94.29%); background: -o-linear-gradient(163.02deg, #F1F9FF 0.84%, #DBDFF3 94.29%); background: linear-gradient(286.98deg, #F1F9FF 0.84%, #DBDFF3 94.29%); -webkit-border-radius: 10px; border-radius: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; }
 
@@ -251,7 +251,7 @@ body:not(.loaded) .article-author:before { content: ''; display: block; position
 
 @media screen and (max-width: 767px) { .gallery { max-width: 36rem; width: 100%; margin: 0; }
   .section-post { margin-bottom: 4rem; }
-  .article-author { padding: 3rem 2rem; display: block; }
+  .article-author { padding: 3rem 2rem; display: flex; }
   .article-author__info { margin: 2rem 0 0; width: 100%; }
   .article-author__text { font-size: 1.4rem; }
   .article-form { margin-top: 6.5rem; }
