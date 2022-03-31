@@ -124,6 +124,11 @@ blockquote:before { font-family: icomoon; font-size: 3.5rem; margin-bottom: 0.5r
 
 body:not(.loaded) blockquote { background-image: url(../img/bg/quote.svg); background-position: 100% 100%; -webkit-background-size: auto 100%; background-size: auto 100%; background-repeat: no-repeat; }
 
+.noquote { margin: 4rem 0 3.2rem; padding: 7.1rem 5rem 5.3rem; background: #fff; -webkit-box-shadow: 0px 1rem 2.6rem rgba(36, 73, 168, 0.15); box-shadow: 0px 1rem 2.6rem rgba(36, 73, 168, 0.15); -webkit-border-radius: 1rem; border-radius: 1rem; font-size: 2.7rem; line-height: 150%; position: relative;  }
+
+.noquote-bg { background-image: url(../img/bg/quote.svg); background-position: 100% 100%; -webkit-background-size: auto 100%; background-size: auto 100%; background-repeat: no-repeat; }
+
+
 @media screen and (max-width: 1280px) { .errorpage__image { margin-right: -8%; padding: 3vh 0 0 4rem; width: 58%; }
   .h1-2 { font-size: 5.2rem; }
   .section-main-screen_inner { padding-top: 14.8rem; } }
@@ -143,6 +148,7 @@ body:not(.loaded) blockquote { background-image: url(../img/bg/quote.svg); backg
   .columns_center { width: 100%; padding: 0; }
   .columns_sidebar { width: 100%; margin: 4.5rem 0 0; }
   blockquote { margin: 2.7rem 0; padding: 5.4rem 4rem 4rem; }
+  .noquote { margin: 2.7rem; padding: 5.4rem 4rem 4rem; }
   blockquote:before { font-size: 3.2rem; }
   body:not(.loaded) blockquote { font-size: 1.9rem; } }
 
@@ -159,6 +165,7 @@ body:not(.loaded) blockquote { background-image: url(../img/bg/quote.svg); backg
   .errorpage__image { padding: 4rem 0 0; margin: 0 auto; width: 100%; max-width: 25rem; }
   .news-header_article { margin-bottom: 4rem; }
   body:not(.loaded) blockquote { font-size: 1.7rem; }
-  blockquote cite { font-size: 1.3rem; } }
+  blockquote cite { font-size: 1.3rem; }
+  .noquote { font-size: 1.7rem; } }
 
 /*# sourceMappingURL=first-screen-inner.css.map */

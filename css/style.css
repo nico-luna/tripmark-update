@@ -730,6 +730,9 @@ body:not(.loaded) .popup-decor-top { background: url(../img/bg/popup_decor-top.s
 
 /* Your Style Here */
 
+
+/*Developer*/
+
 .btn-tm {
   display: flex;
   justify-content: center;
